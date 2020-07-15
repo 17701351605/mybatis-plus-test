@@ -19,6 +19,11 @@ public class ResultModel<T> implements Serializable {
         System.out.println("aa2");
     }
 
+    public void bb(){
+        System.out.println("bb");
+        System.out.println("bb1");
+    }
+
     private Integer code;
     private String msg;
     private T data;
