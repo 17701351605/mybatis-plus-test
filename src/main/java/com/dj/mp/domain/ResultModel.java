@@ -13,17 +13,6 @@ import java.io.Serializable;
 @Data
 public class ResultModel<T> implements Serializable {
 
-    public void aa(){
-        System.out.println("aa");
-        System.out.println("aa1");
-        System.out.println("aa2");
-    }
-
-    public void bb(){
-        System.out.println("bb");
-        System.out.println("bb1");
-    }
-
     private Integer code;
     private String msg;
     private T data;
