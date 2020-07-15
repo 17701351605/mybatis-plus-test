@@ -8,7 +8,7 @@ import java.io.Serializable;
  * JSON 统一返回类
  *
  * @param <T> 泛型
- *           dev master
+ *           dev master dev2
  */
 @Data
 public class ResultModel<T> implements Serializable {
